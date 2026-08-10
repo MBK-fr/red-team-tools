@@ -8,7 +8,9 @@ Includes: Automation scripts, Reconnaissance tools, Scanning utilities, Exploita
 
 ## 📚 Table of Contents
 
-* [Tips-tricks](#-tips--tricks)
+* [Red team roles](#red-team-roles)
+* [Vulnerability landscape](#vulnerability-landscape)
+* [Tips & tricks](#-tips--tricks)
 * [Recon & Enumeration](#-recon--enumeration)
 * [Scanning](#scanning)
 * [Exploitation](#-exploitation)
@@ -40,7 +42,8 @@ red-team-tools/
 
 </details>
 
-### Red team roles
+
+## Red team roles
 
 - Penetration tester
 - Web security tester
@@ -51,7 +54,60 @@ red-team-tools/
 - Adversary 
 
 
+
+
+## Vulnerability landscape
+
+The vulnerability landscape refers to the evolving environment of cybersecurity threats, including vulnerabilities, attack methods, and exploit vectors targeting organizations, governments, and individuals.
+
+
+#@# Why vulnerabilities exist
+
+1. **Human error** – People mess up logic, assumptions, or validation.
+
+2. **Complexity overload** – Modern systems are built on layers of other systems (OS, firmware, APIs, libraries, dependencies).
+
+3. **Speed over security** – Companies push features fast to beat competition. Security usually gets patched *after* release instead of being built-in.
+
+4. **Legacy code** – Old, unmaintained code is everywhere, still running core stuff. Nobody wants to touch it because it’s “working”.
+
+5. **Poor threat modeling** – Developers design for functionality, not for adversarial thinking. 
+
+6. **Hardware flaws are permanent** – You can’t patch a CPU the way you patch software.
+
+7. **Open source ≠ always secure** – Even open code can be overlooked. 
+
+8. **Economics** – Security doesn’t make money unless something breaks. So budgets go to features, not to hardening systems.
+
+
+
+### Attack vectors
+
+- Email
+- Removable device
+- Social media
+- Browser
+- Cloud services
+- Insiders
+- Devices
+- Wireless
+- Malware i.e virus, trojan, botnet
+- Software tools: Metasploit framework, Burpsuite, kali linux
+- Hardware tools i.e Flipper zero, Rubber ducky, WiFi pineapple
+
+
+@## Threat landscape
+
+- Email accounts
+- Social media accounts
+- Mobile devices
+- The organization's technology infrastructure
+- Cloud services
+- People
+
+
 &nbsp;
+
 
 ## 🌟 Tips & tricks
 
