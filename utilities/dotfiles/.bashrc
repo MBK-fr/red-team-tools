@@ -38,7 +38,6 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
-. "$HOME/.cargo/env"
 
 
 # Gradle
@@ -65,6 +64,13 @@ gpg-connect-agent updatestartuptty /bye >/dev/null
 
 # Starship custom shell prompt
 eval "$(starship init bash)"
+
+
+# Android studio
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Metasploit
 export PATH=$PATH:/opt/metasploit-framework/bin
