@@ -39,8 +39,10 @@ path_add "/opt/metasploit-framework/bin"
 
 # Android SDK
 export ANDROID_HOME="$HOME/Utilities/Android/Sdk"
-path_add "$ANDROID_HOME/tools"
-path_add "$ANDROID_HOME/tools/bin"
+export ANDROID_SDK_ROOT="$ANDROID_HOME"
+
+path_add "$ANDROID_HOME/cmdline-tools/latest/bin"
+path_add "$ANDROID_HOME/emulator"
 path_add "$ANDROID_HOME/platform-tools"
 
 export PATH
